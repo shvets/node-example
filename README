@@ -1,0 +1,3 @@
+heroku create --stack cedar node-js-example
+
+push heroku master
