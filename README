@@ -1,3 +1,5 @@
 heroku create --stack cedar node-js-example
 
-push heroku master
+git remote add heroku git@heroku.com:node-js-example.git
+
+git push heroku master
